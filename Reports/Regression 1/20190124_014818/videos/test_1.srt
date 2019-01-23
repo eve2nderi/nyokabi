@@ -1,0 +1,20 @@
+1
+00:00:00,518 --> 00:00:00,523
+1. callTestCase(findTestCase("Login/1_User_Login"), ["email":"sssdgfd", "password":"dsdfsdfsdfsd"], STOP_ON_FAILURE)
+
+2
+00:00:01,037 --> 00:00:01,038
+1. callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE)
+
+3
+00:00:01,430 --> 00:00:01,431
+1. openBrowser(app_URL)
+
+4
+00:00:06,106 --> 00:00:06,107
+5. maximizeWindow()
+
+5
+00:00:07,294 --> 00:00:07,296
+5. click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Sign In"))
+

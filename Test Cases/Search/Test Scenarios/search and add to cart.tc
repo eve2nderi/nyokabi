@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>search and add to cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa85b36a-c133-454e-837f-5634eee145dc</testCaseGuid>
+   <variable>
+      <defaultValue>'IPHONE 6 - 1GB RAM - 128GB ROM - SPACE GREY'</defaultValue>
+      <description></description>
+      <id>e3ebcba4-8515-4ef8-82f8-d74002e85db9</id>
+      <masked>false</masked>
+      <name>SearchItem</name>
+   </variable>
+</TestCaseEntity>

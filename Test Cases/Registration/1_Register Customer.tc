@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1_Register Customer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b267a450-9872-48cf-83be-8b0f0721a5cc</testCaseGuid>
+   <variable>
+      <defaultValue>'Eve'</defaultValue>
+      <description></description>
+      <id>8464f376-06cd-4bca-9eee-bda4dd704dd6</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Soni'</defaultValue>
+      <description></description>
+      <id>3441f854-7993-40a1-8143-1835f4bca105</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'001'</defaultValue>
+      <description></description>
+      <id>7c408fc7-4f4d-48d4-99f1-72705cd14ef2</id>
+      <masked>false</masked>
+      <name>storecode</name>
+   </variable>
+   <variable>
+      <defaultValue>'eve@son.com'</defaultValue>
+      <description></description>
+      <id>720430bf-f077-44e1-bda5-2c0f43f1d1bc</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'mscheew'</defaultValue>
+      <description></description>
+      <id>93ca17cb-94ad-41ab-a28e-f98b9fbecc2b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'mscheew'</defaultValue>
+      <description></description>
+      <id>370c6d25-fc39-4afa-8132-55dbd5852cdc</id>
+      <masked>false</masked>
+      <name>password_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'0725656566'</defaultValue>
+      <description></description>
+      <id>920a7f0e-87fc-4a68-93ff-69784f3c914d</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+</TestCaseEntity>

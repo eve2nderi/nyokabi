@@ -1,0 +1,36 @@
+1
+00:00:00,439 --> 00:00:00,444
+1. callTestCase(findTestCase("Login/1_User_Login"), ["email":"sssdgfd", "password":"dsdfsdfsdfsd"], STOP_ON_FAILURE)
+
+2
+00:00:00,860 --> 00:00:00,861
+1. callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE)
+
+3
+00:00:01,222 --> 00:00:01,224
+1. openBrowser(app_URL)
+
+4
+00:00:14,448 --> 00:00:14,451
+5. maximizeWindow()
+
+5
+00:00:15,632 --> 00:00:15,635
+5. click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Sign In"))
+
+6
+00:00:35,676 --> 00:00:35,678
+9. setText(findTestObject("Page_Customer Login/input_Email"), email)
+
+7
+00:00:36,374 --> 00:00:36,375
+13. setText(findTestObject("Page_Customer Login/input_password"), password)
+
+8
+00:00:36,659 --> 00:00:36,661
+17. click(findTestObject("Page_Customer Login/Page_Customer Login/button_Sign In"), STOP_ON_FAILURE)
+
+9
+00:00:36,876 --> 00:00:36,877
+5. verifyTextPresent("Please enter a valid email address ", false)
+

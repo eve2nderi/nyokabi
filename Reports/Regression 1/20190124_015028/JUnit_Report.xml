@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression 1" time="279" tests="5" failures="3" errors="0">
+   <testsuite name="Regression 1" tests="5" failures="3" errors="0" time="279" timestamp="2019-01-24 01:50:35" hostname="Nyokabi - DESKTOP-8EHQOB5" id="Test Suites/Regression 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nyokabi\\Katalon Studio\\MSoko\\Reports\\Regression 1\\20190124_015028"/>
+         <property name="logFiles" value="C:\\Users\\Nyokabi\\Katalon Studio\\MSoko\\Reports\\Regression 1\\20190124_015028\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Nyokabi\\Katalon Studio\\MSoko\\Reports\\Regression 1\\20190124_015028\\1548283894945.png, C:\\Users\\Nyokabi\\Katalon Studio\\MSoko\\Reports\\Regression 1\\20190124_015028\\1548284010749.png, C:\\Users\\Nyokabi\\Katalon Studio\\MSoko\\Reports\\Regression 1\\20190124_015028\\1548284077466.png"/>
+         <property name="hostName" value="Nyokabi - DESKTOP-8EHQOB5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.158.1"/>
+         <property name="sessionId" value="231c892fa0c5d24c89f792a56a4f30a5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test Scenarios/verify_InValid Email" classname="Test Cases/Login/Test Scenarios/verify_InValid Email" status="PASSED">
+         <system-out><![CDATA[2019-01-24 01:50:35 - [TEST_CASE][PASSED] - Test Cases/Login/Test Scenarios/verify_InValid Email: Test Cases/Login/Test Scenarios/verify_InValid Email
+
+2019-01-24 01:50:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/1_User_Login"), ["email":"sssdgfd", "password":"dsdfsdfsdfsd"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/1_User_Login' successfully
+
+2019-01-24 01:50:36 - [TEST_CASE][PASSED] - Test Cases/Login/1_User_Login: Test Cases/Login/1_User_Login
+
+2019-01-24 01:50:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:50:36 - [TEST_CASE][PASSED] - Test Cases/Launch App: Test Cases/Launch App
+
+2019-01-24 01:50:37 - [TEST_STEP][PASSED] - openBrowser(app_URL): Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:50:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 01:50:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-24 01:50:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:50:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 01:50:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 01:50:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:50:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Sign In")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Sign In' is clicked on
+
+2019-01-24 01:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Sign In' is clicked on
+
+2019-01-24 01:51:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Login/input_Email"), email): Text 'sssdgfd' is set on object 'Object Repository/Page_Customer Login/input_Email'
+
+2019-01-24 01:51:12 - [MESSAGE][PASSED] - Text 'sssdgfd' is set on object 'Object Repository/Page_Customer Login/input_Email'
+
+2019-01-24 01:51:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Login/input_password"), password): Text 'dsdfsdfsdfsd' is set on object 'Object Repository/Page_Customer Login/input_password'
+
+2019-01-24 01:51:12 - [MESSAGE][PASSED] - Text 'dsdfsdfsdfsd' is set on object 'Object Repository/Page_Customer Login/input_password'
+
+2019-01-24 01:51:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Login/Page_Customer Login/button_Sign In"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Customer Login/Page_Customer Login/button_Sign In' is clicked on
+
+2019-01-24 01:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/Page_Customer Login/button_Sign In' is clicked on
+
+2019-01-24 01:51:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/1_User_Login' successfully
+
+2019-01-24 01:51:12 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter a valid email address ", false): Text 'Please enter a valid email address ' is present on page 
+
+2019-01-24 01:51:13 - [MESSAGE][PASSED] - Text 'Please enter a valid email address ' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Scenarios/verify_invalid Login" classname="Test Cases/Login/Test Scenarios/verify_invalid Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/Test Scenarios/verify_invalid Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid login or password' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid login or password' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_invalid Login.run(verify_invalid Login:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-24 01:51:15 - [TEST_CASE][FAILED] - Test Cases/Login/Test Scenarios/verify_invalid Login: Test Cases/Login/Test Scenarios/verify_invalid Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid login or password' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid login or password' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_invalid Login.run(verify_invalid Login:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)
+
+
+2019-01-24 01:51:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/1_User_Login"), ["email":"sssdgfd", "password":"dsdfsdfsdfsd"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/1_User_Login' successfully
+
+2019-01-24 01:51:15 - [TEST_CASE][PASSED] - Test Cases/Login/1_User_Login: Test Cases/Login/1_User_Login
+
+2019-01-24 01:51:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:51:16 - [TEST_CASE][PASSED] - Test Cases/Launch App: Test Cases/Launch App
+
+2019-01-24 01:51:16 - [TEST_STEP][PASSED] - openBrowser(app_URL): Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:51:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-24 01:51:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 01:51:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:51:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 01:51:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 01:51:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Sign In")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Sign In' is clicked on
+
+2019-01-24 01:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Sign In' is clicked on
+
+2019-01-24 01:51:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Login/input_Email"), email): Text 'sssdgfd' is set on object 'Object Repository/Page_Customer Login/input_Email'
+
+2019-01-24 01:51:33 - [MESSAGE][PASSED] - Text 'sssdgfd' is set on object 'Object Repository/Page_Customer Login/input_Email'
+
+2019-01-24 01:51:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Login/input_password"), password): Text 'dsdfsdfsdfsd' is set on object 'Object Repository/Page_Customer Login/input_password'
+
+2019-01-24 01:51:34 - [MESSAGE][PASSED] - Text 'dsdfsdfsdfsd' is set on object 'Object Repository/Page_Customer Login/input_password'
+
+2019-01-24 01:51:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Login/Page_Customer Login/button_Sign In"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Customer Login/Page_Customer Login/button_Sign In' is clicked on
+
+2019-01-24 01:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/Page_Customer Login/button_Sign In' is clicked on
+
+2019-01-24 01:51:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/1_User_Login' successfully
+
+2019-01-24 01:51:34 - [TEST_STEP][FAILED] - verifyTextPresent("Invalid login or password", false): verifyTextPresent("Invalid login or password", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid login or password' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid login or password' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_invalid Login.run(verify_invalid Login:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)
+
+
+2019-01-24 01:51:34 - [MESSAGE][FAILED] - Text 'Invalid login or password' is not present on page 
+
+2019-01-24 01:51:35 - [MESSAGE][FAILED] - Unable to verify text 'Invalid login or password' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid login or password' is not present on page )
+[[ATTACHMENT|C:\\Users\\Nyokabi\\Katalon Studio\\MSoko\\Reports\\Regression 1\\20190124_015028\\1548283894945.png]]
+
+2019-01-24 01:51:35 - [MESSAGE][FAILED] - verifyTextPresent("Invalid login or password", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid login or password' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid login or password' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_invalid Login.run(verify_invalid Login:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-24 01:51:15 - [TEST_CASE][FAILED] - Test Cases/Login/Test Scenarios/verify_invalid Login: Test Cases/Login/Test Scenarios/verify_invalid Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid login or password' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid login or password' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_invalid Login.run(verify_invalid Login:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/Test Scenarios/verify_Invalid Email" classname="Test Cases/Registration/Test Scenarios/verify_Invalid Email" status="PASSED">
+         <system-out><![CDATA[2019-01-24 01:51:38 - [TEST_CASE][PASSED] - Test Cases/Registration/Test Scenarios/verify_Invalid Email: Test Cases/Registration/Test Scenarios/verify_Invalid Email
+
+2019-01-24 01:51:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Registration/1_Register Customer"), ["firstname":"Eve", "lastname":"Soni", "storecode":"001", "email":"nyefnyef", "password":"mscheew123!A", "password_1":"mscheew123!A", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:51:38 - [TEST_CASE][PASSED] - Test Cases/Registration/1_Register Customer: Test Cases/Registration/1_Register Customer
+
+2019-01-24 01:51:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:51:38 - [TEST_CASE][PASSED] - Test Cases/Launch App: Test Cases/Launch App
+
+2019-01-24 01:51:38 - [TEST_STEP][PASSED] - openBrowser(app_URL): Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:51:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-24 01:51:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 01:51:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:51:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 01:51:53 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 01:51:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:51:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Register")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:51:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_fir"), firstname): Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:51:59 - [MESSAGE][PASSED] - Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:51:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_las"), lastname): Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:51:59 - [MESSAGE][PASSED] - Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:51:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_store_code_"), storecode): Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:51:59 - [MESSAGE][PASSED] - Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:51:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_mobile"), phone): Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:51:59 - [MESSAGE][PASSED] - Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:51:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_emai"), email): Text 'nyefnyef' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:52:00 - [MESSAGE][PASSED] - Text 'nyefnyef' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_pass"), password): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:52:00 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_No Password_password_con"), password_1): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:52:00 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:52:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create New Customer Account/button_Create an Account")): Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:52:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:52:00 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter a valid email address ", false): Text 'Please enter a valid email address ' is present on page 
+
+2019-01-24 01:52:01 - [MESSAGE][PASSED] - Text 'Please enter a valid email address ' is present on page 
+
+2019-01-24 01:52:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-24 01:52:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/Test Scenarios/verify_Invalid Phone number" classname="Test Cases/Registration/Test Scenarios/verify_Invalid Phone number" status="PASSED">
+         <system-out><![CDATA[2019-01-24 01:52:04 - [TEST_CASE][PASSED] - Test Cases/Registration/Test Scenarios/verify_Invalid Phone number: Test Cases/Registration/Test Scenarios/verify_Invalid Phone number
+
+2019-01-24 01:52:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Registration/1_Register Customer"), ["firstname":"Eve", "lastname":"Soni", "storecode":"001", "email":"eve@son.com", "password":"mscheew123!A", "password_1":"mscheew123!A", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:52:05 - [TEST_CASE][PASSED] - Test Cases/Registration/1_Register Customer: Test Cases/Registration/1_Register Customer
+
+2019-01-24 01:52:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:52:05 - [TEST_CASE][PASSED] - Test Cases/Launch App: Test Cases/Launch App
+
+2019-01-24 01:52:05 - [TEST_STEP][PASSED] - openBrowser(app_URL): Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:52:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 01:52:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:52:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 01:52:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 01:52:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:52:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Register")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:52:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_fir"), firstname): Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:52:22 - [MESSAGE][PASSED] - Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:52:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_las"), lastname): Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:52:22 - [MESSAGE][PASSED] - Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:52:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_store_code_"), storecode): Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:52:22 - [MESSAGE][PASSED] - Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:52:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_mobile"), phone): Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:52:23 - [MESSAGE][PASSED] - Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:52:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_emai"), email): Text 'eve@son.com' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:52:23 - [MESSAGE][PASSED] - Text 'eve@son.com' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:52:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_pass"), password): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:52:23 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:52:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_No Password_password_con"), password_1): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:52:23 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:52:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create New Customer Account/button_Create an Account")): Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:52:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:52:28 - [TEST_STEP][PASSED] - verifyTextPresent("This Store code you entered does not exist", false): Text 'This Store code you entered does not exist' is present on page 
+
+2019-01-24 01:52:29 - [MESSAGE][PASSED] - Text 'This Store code you entered does not exist' is present on page 
+
+2019-01-24 01:52:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-24 01:52:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/Test Scenarios/verify_Invalid Store code" classname="Test Cases/Registration/Test Scenarios/verify_Invalid Store code" status="PASSED">
+         <system-out><![CDATA[2019-01-24 01:52:32 - [TEST_CASE][PASSED] - Test Cases/Registration/Test Scenarios/verify_Invalid Store code: Test Cases/Registration/Test Scenarios/verify_Invalid Store code
+
+2019-01-24 01:52:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Registration/1_Register Customer"), ["firstname":"Eve", "lastname":"Soni", "storecode":"001", "email":"eve@son.com", "password":"mscheew123!A", "password_1":"mscheew123!A", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:52:32 - [TEST_CASE][PASSED] - Test Cases/Registration/1_Register Customer: Test Cases/Registration/1_Register Customer
+
+2019-01-24 01:52:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:52:32 - [TEST_CASE][PASSED] - Test Cases/Launch App: Test Cases/Launch App
+
+2019-01-24 01:52:32 - [TEST_STEP][PASSED] - openBrowser(app_URL): Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:52:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 01:52:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:52:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 01:52:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 01:52:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Register")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:52:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_fir"), firstname): Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:52:53 - [MESSAGE][PASSED] - Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:52:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_las"), lastname): Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:52:53 - [MESSAGE][PASSED] - Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:52:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_store_code_"), storecode): Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:52:53 - [MESSAGE][PASSED] - Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:52:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_mobile"), phone): Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:52:53 - [MESSAGE][PASSED] - Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:52:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_emai"), email): Text 'eve@son.com' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:52:53 - [MESSAGE][PASSED] - Text 'eve@son.com' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:52:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_pass"), password): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:52:54 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:52:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_No Password_password_con"), password_1): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:52:54 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create New Customer Account/button_Create an Account")): Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:53:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:53:01 - [TEST_STEP][PASSED] - verifyTextPresent("This Store code you entered does not exist", false): Text 'This Store code you entered does not exist' is present on page 
+
+2019-01-24 01:53:02 - [MESSAGE][PASSED] - Text 'This Store code you entered does not exist' is present on page 
+
+2019-01-24 01:53:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-24 01:53:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/Test Scenarios/verify_Password Length" classname="Test Cases/Registration/Test Scenarios/verify_Password Length" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Registration/Test Scenarios/verify_Password Length FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Length.run(verify_Password Length:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-24 01:53:05 - [TEST_CASE][FAILED] - Test Cases/Registration/Test Scenarios/verify_Password Length: Test Cases/Registration/Test Scenarios/verify_Password Length FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Length.run(verify_Password Length:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)
+
+
+2019-01-24 01:53:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Registration/1_Register Customer"), ["firstname":"Eve", "lastname":"Soni", "storecode":"001", "email":"eve@son.com", "password":"mscheew123!A", "password_1":"mscheew123!A", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:53:05 - [TEST_CASE][PASSED] - Test Cases/Registration/1_Register Customer: Test Cases/Registration/1_Register Customer
+
+2019-01-24 01:53:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:53:05 - [TEST_CASE][PASSED] - Test Cases/Launch App: Test Cases/Launch App
+
+2019-01-24 01:53:05 - [TEST_STEP][PASSED] - openBrowser(app_URL): Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:53:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 01:53:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:53:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 01:53:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 01:53:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Register")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:53:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_fir"), firstname): Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:53:23 - [MESSAGE][PASSED] - Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_las"), lastname): Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:53:23 - [MESSAGE][PASSED] - Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_store_code_"), storecode): Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:53:23 - [MESSAGE][PASSED] - Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_mobile"), phone): Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:53:23 - [MESSAGE][PASSED] - Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_emai"), email): Text 'eve@son.com' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:53:23 - [MESSAGE][PASSED] - Text 'eve@son.com' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_pass"), password): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:53:24 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:53:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_No Password_password_con"), password_1): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:53:24 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:53:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create New Customer Account/button_Create an Account")): Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:53:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:53:29 - [TEST_STEP][FAILED] - verifyTextPresent(passwordError, true): verifyTextPresent(passwordError, true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Length.run(verify_Password Length:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)
+
+
+2019-01-24 01:53:30 - [MESSAGE][FAILED] - Text 'Please enter the same value again' is not present on page  using regular expression
+
+2019-01-24 01:53:31 - [MESSAGE][FAILED] - Unable to verify text 'Please enter the same value again' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page  using regular expression)
+[[ATTACHMENT|C:\\Users\\Nyokabi\\Katalon Studio\\MSoko\\Reports\\Regression 1\\20190124_015028\\1548284010749.png]]
+
+2019-01-24 01:53:31 - [MESSAGE][FAILED] - verifyTextPresent(passwordError, true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Length.run(verify_Password Length:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-24 01:53:05 - [TEST_CASE][FAILED] - Test Cases/Registration/Test Scenarios/verify_Password Length: Test Cases/Registration/Test Scenarios/verify_Password Length FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Length.run(verify_Password Length:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/Test Scenarios/verify_Password Missmatch" classname="Test Cases/Registration/Test Scenarios/verify_Password Missmatch" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Registration/Test Scenarios/verify_Password Missmatch FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Missmatch.run(verify_Password Missmatch:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-24 01:53:34 - [TEST_CASE][FAILED] - Test Cases/Registration/Test Scenarios/verify_Password Missmatch: Test Cases/Registration/Test Scenarios/verify_Password Missmatch FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Missmatch.run(verify_Password Missmatch:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)
+
+
+2019-01-24 01:53:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Registration/1_Register Customer"), ["firstname":"Eve", "lastname":"Soni", "storecode":"001", "email":"eve@son.com", "password":"mscheew123!A", "password_1":"mscheew123!A", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:53:34 - [TEST_CASE][PASSED] - Test Cases/Registration/1_Register Customer: Test Cases/Registration/1_Register Customer
+
+2019-01-24 01:53:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:53:34 - [TEST_CASE][PASSED] - Test Cases/Launch App: Test Cases/Launch App
+
+2019-01-24 01:53:34 - [TEST_STEP][PASSED] - openBrowser(app_URL): Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:53:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-24 01:53:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 01:53:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:53:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 01:53:50 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 01:53:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:53:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Register")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/lnk_Register' is clicked on
+
+2019-01-24 01:53:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_fir"), firstname): Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:53:56 - [MESSAGE][PASSED] - Text 'Eve' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_fir'
+
+2019-01-24 01:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Personal Information_las"), lastname): Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:53:56 - [MESSAGE][PASSED] - Text 'Soni' is set on object 'Object Repository/Page_Create New Customer Account/input_Personal Information_las'
+
+2019-01-24 01:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_store_code_"), storecode): Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:53:56 - [MESSAGE][PASSED] - Text '001' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_store_code_'
+
+2019-01-24 01:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_land Islands_mobile"), phone): Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:53:56 - [MESSAGE][PASSED] - Text '0725656566' is set on object 'Object Repository/Page_Create New Customer Account/input_land Islands_mobile'
+
+2019-01-24 01:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_emai"), email): Text 'eve@son.com' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:53:56 - [MESSAGE][PASSED] - Text 'eve@son.com' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_emai'
+
+2019-01-24 01:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_pass"), password): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:53:57 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_Sign-in Information_pass'
+
+2019-01-24 01:53:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create New Customer Account/input_No Password_password_con"), password_1): Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:53:57 - [MESSAGE][PASSED] - Text 'mscheew123!A' is set on object 'Object Repository/Page_Create New Customer Account/input_No Password_password_con'
+
+2019-01-24 01:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create New Customer Account/button_Create an Account")): Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/button_Create an Account' is clicked on
+
+2019-01-24 01:54:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Registration/1_Register Customer' successfully
+
+2019-01-24 01:54:36 - [TEST_STEP][FAILED] - verifyTextPresent("Please enter the same value again", false): verifyTextPresent("Please enter the same value again", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Missmatch.run(verify_Password Missmatch:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)
+
+
+2019-01-24 01:54:37 - [MESSAGE][FAILED] - Text 'Please enter the same value again' is not present on page 
+
+2019-01-24 01:54:38 - [MESSAGE][FAILED] - Unable to verify text 'Please enter the same value again' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page )
+[[ATTACHMENT|C:\\Users\\Nyokabi\\Katalon Studio\\MSoko\\Reports\\Regression 1\\20190124_015028\\1548284077466.png]]
+
+2019-01-24 01:54:38 - [MESSAGE][FAILED] - verifyTextPresent("Please enter the same value again", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Missmatch.run(verify_Password Missmatch:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-24 01:53:34 - [TEST_CASE][FAILED] - Test Cases/Registration/Test Scenarios/verify_Password Missmatch: Test Cases/Registration/Test Scenarios/verify_Password Missmatch FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Please enter the same value again' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Please enter the same value again' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_Password Missmatch.run(verify_Password Missmatch:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/Test Scenarios/verify_Search Item" classname="Test Cases/Search/Test Scenarios/verify_Search Item" status="PASSED">
+         <system-out><![CDATA[2019-01-24 01:54:40 - [TEST_CASE][PASSED] - Test Cases/Search/Test Scenarios/verify_Search Item: Test Cases/Search/Test Scenarios/verify_Search Item
+
+2019-01-24 01:54:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Search/1_search item"), ["SearchItem":search], STOP_ON_FAILURE): Call Test Case 'Test Cases/Search/1_search item' successfully
+
+2019-01-24 01:54:41 - [TEST_CASE][PASSED] - Test Cases/Search/1_search item: Test Cases/Search/1_search item
+
+2019-01-24 01:54:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:54:42 - [TEST_CASE][PASSED] - Test Cases/Launch App: Test Cases/Launch App
+
+2019-01-24 01:54:42 - [TEST_STEP][PASSED] - openBrowser(app_URL): Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:54:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-24 01:54:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 01:54:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com'
+
+2019-01-24 01:54:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 01:55:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 01:55:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch App' successfully
+
+2019-01-24 01:55:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop Online in Kenya - Pay Con/input_SearchProduct"), SearchItem): Text 'COKE ZERO 500ML PET' is set on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/input_SearchProduct'
+
+2019-01-24 01:55:02 - [MESSAGE][PASSED] - Text 'COKE ZERO 500ML PET' is set on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/input_SearchProduct'
+
+2019-01-24 01:55:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 01:55:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 01:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop Online in Kenya - Pay Con/btn_search")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/btn_search' is clicked on
+
+2019-01-24 01:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/btn_search' is clicked on
+
+2019-01-24 01:55:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Search/1_search item' successfully
+
+2019-01-24 01:55:10 - [TEST_STEP][PASSED] - verifyTextPresent(search, true): Text 'COKE ZERO 500ML PET' is present on page  using regular expression
+
+2019-01-24 01:55:12 - [MESSAGE][PASSED] - Text 'COKE ZERO 500ML PET' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-24 01:50:35 - [TEST_SUITE][FAILED] - Regression 1: Test Cases/Login/Test Scenarios/verify_invalid Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid login or password' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid login or password' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_invalid Login.run(verify_invalid Login:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-24 01:50:35 - [TEST_SUITE][FAILED] - Regression 1: Test Cases/Login/Test Scenarios/verify_invalid Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid login or password' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid login or password' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at verify_invalid Login.run(verify_invalid Login:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548283832791.run(TempTestSuite1548283832791.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

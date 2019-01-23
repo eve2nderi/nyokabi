@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Categories</name>
+   <tag></tag>
+   <elementGuidId>6b7ce907-5ef2-4eab-ae92-11fbecf1964d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='search.category']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cat</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>search.category</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Select Category</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All CategoriesWHOLESALE  Tissues &amp; Toiletries  Detergents &amp; Cleaners  Kitchen EssentialsBOOKS &amp; STATIONERY  Educational Books  Stationery  NovelsPHONES &amp; TABLETS  Mobile Phones  Tablets  Mobile AccessoriesELECTRONICS  Televisions  TV Accessories  Home Audio  Computers  Cameras &amp; Accessories  Gaming Console &amp; AccessoriesHOME &amp; LIVING  Large Appliances  Small Appliances  Kitchen Appliances  Kitchen &amp; Dining  Lighting  BeddingFOOD &amp; DRINKS  Beverages  Grains &amp; Flour  Cooking Fats &amp; Oils  Jams, Honey &amp; Spreads  Spices &amp; Sauces  Confectionery  Breakfast Cereals  Nutrition &amp; Supplements  Sugar &amp; Sweeteners  Pasta &amp; Noodles  TinsHOME CARE  Air Fresheners  Pesticides &amp; Insecticides  Detergent &amp; Cleaners  Tissues &amp; Disposables  Cleaning ToolsBEAUTY &amp; PERSONAL CARE  Bath &amp; Body  Feminine Hygiene  Oral Care  Men's Grooming  Perfumes  Hair &amp; Haircare  Make Up &amp; Nail Care  SkincareFASHION  Women's Fashion  Men's Fashion  WatchesBABY &amp; KIDS  Toys &amp; Games  Diapering  Baby Gear  Baby Toiletries &amp; Bath Time  Baby Feeding  Baby &amp; Kids FashionALCOHOLIC BEVERAGES  Wine  Spirits  BeerEXPRESS DELIVERY  Express Alcohol Delivery!SamsungTecnoAppleHuggiesSonyL.A ColorsHPPhillipsBoschEABLVonBruhmArmcoSaturnBlack &amp; DeckerMikaElektaMobile Accessories</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;search.category&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@id='search.category']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//form[@id='search_mini_form']/div/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[3]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//select</value>
+   </webElementXpaths>
+</WebElementEntity>

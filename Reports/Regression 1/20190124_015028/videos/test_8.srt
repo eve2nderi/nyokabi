@@ -1,0 +1,32 @@
+1
+00:00:00,573 --> 00:00:00,574
+1. callTestCase(findTestCase("Search/1_search item"), ["SearchItem":search], STOP_ON_FAILURE)
+
+2
+00:00:01,238 --> 00:00:01,239
+1. callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE)
+
+3
+00:00:01,312 --> 00:00:01,313
+1. openBrowser(app_URL)
+
+4
+00:00:18,797 --> 00:00:18,798
+5. maximizeWindow()
+
+5
+00:00:20,011 --> 00:00:20,013
+5. setText(findTestObject("Page_Shop Online in Kenya - Pay Con/input_SearchProduct"), SearchItem)
+
+6
+00:00:21,191 --> 00:00:21,191
+9. delay(2)
+
+7
+00:00:23,205 --> 00:00:23,206
+13. click(findTestObject("Page_Shop Online in Kenya - Pay Con/btn_search"))
+
+8
+00:00:29,169 --> 00:00:29,170
+5. verifyTextPresent(search, true)
+

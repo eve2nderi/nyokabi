@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_Search Item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a84c4d8-2736-4ded-a2f7-284130f6f98b</testCaseGuid>
+   <variable>
+      <defaultValue>'COKE ZERO 500ML PET'</defaultValue>
+      <description></description>
+      <id>7e2f5153-1235-4479-9f58-1706e214b236</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+</TestCaseEntity>

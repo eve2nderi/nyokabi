@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression 1,Chrome 71.0.3578.98,,2019-01-24 01:50:35,2019-01-24 01:55:14,4m - 39.680s,FAILED
+,,,,,,
+Test Cases/Login/Test Scenarios/verify_InValid Email,Chrome 71.0.3578.98,,2019-01-24 01:50:35,2019-01-24 01:51:15,39.948s,PASSED
+"callTestCase(findTestCase(""Login/1_User_Login""), [""email"":""sssdgfd"", ""password"":""dsdfsdfsdfsd""], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 01:50:36,2019-01-24 01:51:12,36.434s,PASSED
+"verifyTextPresent(""Please enter a valid email address "", false)",Chrome 71.0.3578.98,,2019-01-24 01:51:12,2019-01-24 01:51:13,0.595s,PASSED
+,,,,,,
+Test Cases/Login/Test Scenarios/verify_invalid Login,Chrome 71.0.3578.98,,2019-01-24 01:51:15,2019-01-24 01:51:38,22.453s,FAILED
+"callTestCase(findTestCase(""Login/1_User_Login""), [""email"":""sssdgfd"", ""password"":""dsdfsdfsdfsd""], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 01:51:15,2019-01-24 01:51:34,18.461s,PASSED
+"verifyTextPresent(""Invalid login or password"", false)",Chrome 71.0.3578.98,,2019-01-24 01:51:34,2019-01-24 01:51:35,1.512s,FAILED
+,,,,,,
+Test Cases/Registration/Test Scenarios/verify_Invalid Email,Chrome 71.0.3578.98,,2019-01-24 01:51:38,2019-01-24 01:52:04,26.722s,PASSED
+"callTestCase(findTestCase(""Registration/1_Register Customer""), [""firstname"":""Eve"", ""lastname"":""Soni"", ""storecode"":""001"", ""email"":""nyefnyef"", ""password"":""mscheew123!A"", ""password_1"":""mscheew123!A"", ... ], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 01:51:38,2019-01-24 01:52:00,22.562s,PASSED
+"verifyTextPresent(""Please enter a valid email address "", false)",Chrome 71.0.3578.98,,2019-01-24 01:52:00,2019-01-24 01:52:01,0.879s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-24 01:52:01,2019-01-24 01:52:02,0.799s,PASSED
+,,,,,,
+Test Cases/Registration/Test Scenarios/verify_Invalid Phone number,Chrome 71.0.3578.98,,2019-01-24 01:52:04,2019-01-24 01:52:32,27.274s,PASSED
+"callTestCase(findTestCase(""Registration/1_Register Customer""), [""firstname"":""Eve"", ""lastname"":""Soni"", ""storecode"":""001"", ""email"":""eve@son.com"", ""password"":""mscheew123!A"", ""password_1"":""mscheew123!A"", ... ], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 01:52:04,2019-01-24 01:52:28,23.252s,PASSED
+"verifyTextPresent(""This Store code you entered does not exist"", false)",Chrome 71.0.3578.98,,2019-01-24 01:52:28,2019-01-24 01:52:29,0.942s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-24 01:52:29,2019-01-24 01:52:29,0.716s,PASSED
+,,,,,,
+Test Cases/Registration/Test Scenarios/verify_Invalid Store code,Chrome 71.0.3578.98,,2019-01-24 01:52:32,2019-01-24 01:53:05,33.348s,PASSED
+"callTestCase(findTestCase(""Registration/1_Register Customer""), [""firstname"":""Eve"", ""lastname"":""Soni"", ""storecode"":""001"", ""email"":""eve@son.com"", ""password"":""mscheew123!A"", ""password_1"":""mscheew123!A"", ... ], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 01:52:32,2019-01-24 01:53:01,29.119s,PASSED
+"verifyTextPresent(""This Store code you entered does not exist"", false)",Chrome 71.0.3578.98,,2019-01-24 01:53:01,2019-01-24 01:53:02,1.111s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-24 01:53:02,2019-01-24 01:53:03,0.802s,PASSED
+,,,,,,
+Test Cases/Registration/Test Scenarios/verify_Password Length,Chrome 71.0.3578.98,,2019-01-24 01:53:05,2019-01-24 01:53:33,28.619s,FAILED
+"callTestCase(findTestCase(""Registration/1_Register Customer""), [""firstname"":""Eve"", ""lastname"":""Soni"", ""storecode"":""001"", ""email"":""eve@son.com"", ""password"":""mscheew123!A"", ""password_1"":""mscheew123!A"", ... ], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 01:53:05,2019-01-24 01:53:29,24.193s,PASSED
+"verifyTextPresent(passwordError, true)",Chrome 71.0.3578.98,,2019-01-24 01:53:29,2019-01-24 01:53:31,2.036s,FAILED
+,,,,,,
+Test Cases/Registration/Test Scenarios/verify_Password Missmatch,Chrome 71.0.3578.98,,2019-01-24 01:53:34,2019-01-24 01:54:40,1m - 6.876s,FAILED
+"callTestCase(findTestCase(""Registration/1_Register Customer""), [""firstname"":""Eve"", ""lastname"":""Soni"", ""storecode"":""001"", ""email"":""eve@son.com"", ""password"":""mscheew123!A"", ""password_1"":""mscheew123!A"", ... ], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 01:53:34,2019-01-24 01:54:36,1m - 2.026s,PASSED
+"verifyTextPresent(""Please enter the same value again"", false)",Chrome 71.0.3578.98,,2019-01-24 01:54:36,2019-01-24 01:54:38,2.297s,FAILED
+,,,,,,
+Test Cases/Search/Test Scenarios/verify_Search Item,Chrome 71.0.3578.98,,2019-01-24 01:54:40,2019-01-24 01:55:14,33.227s,PASSED
+"callTestCase(findTestCase(""Search/1_search item""), [""SearchItem"":search], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 01:54:41,2019-01-24 01:55:10,28.596s,PASSED
+"verifyTextPresent(search, true)",Chrome 71.0.3578.98,,2019-01-24 01:55:10,2019-01-24 01:55:12,1.905s,PASSED

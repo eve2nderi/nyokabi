@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigating to the MSoko Application</description>
+   <name>Launch App</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81c3da2c-ffd9-4a34-8ccf-434e6e9329bc</testCaseGuid>
+   <variable>
+      <defaultValue>'www.masoko.com/'</defaultValue>
+      <description></description>
+      <id>a4eb8520-e222-465c-80e4-92b2ca0790d8</id>
+      <masked>false</masked>
+      <name>App</name>
+   </variable>
+</TestCaseEntity>

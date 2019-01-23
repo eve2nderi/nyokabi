@@ -1,0 +1,56 @@
+1
+00:00:00,174 --> 00:00:00,175
+1. callTestCase(findTestCase("Registration/1_Register Customer"), ["firstname":"Eve", "lastname":"Soni", "storecode":"001", "email":"eve@son.com", "password":"mscheew123!A", "password_1":"mscheew123!A", ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,245 --> 00:00:00,245
+1. callTestCase(findTestCase("Launch App"), ["App":"www.masoko.com/"], STOP_ON_FAILURE)
+
+3
+00:00:00,309 --> 00:00:00,309
+1. openBrowser(app_URL)
+
+4
+00:00:09,930 --> 00:00:09,931
+5. maximizeWindow()
+
+5
+00:00:11,286 --> 00:00:11,287
+5. click(findTestObject("Page_Shop Online in Kenya - Pay Con/lnk_Register"))
+
+6
+00:00:17,330 --> 00:00:17,331
+9. setText(findTestObject("Page_Create New Customer Account/input_Personal Information_fir"), firstname)
+
+7
+00:00:17,591 --> 00:00:17,592
+13. setText(findTestObject("Page_Create New Customer Account/input_Personal Information_las"), lastname)
+
+8
+00:00:17,774 --> 00:00:17,775
+17. setText(findTestObject("Page_Create New Customer Account/input_land Islands_store_code_"), storecode)
+
+9
+00:00:17,915 --> 00:00:17,916
+21. setText(findTestObject("Page_Create New Customer Account/input_land Islands_mobile"), phone)
+
+10
+00:00:18,162 --> 00:00:18,163
+25. setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_emai"), email)
+
+11
+00:00:18,453 --> 00:00:18,454
+29. setText(findTestObject("Page_Create New Customer Account/input_Sign-in Information_pass"), password)
+
+12
+00:00:18,890 --> 00:00:18,891
+33. setText(findTestObject("Page_Create New Customer Account/input_No Password_password_con"), password_1)
+
+13
+00:00:19,142 --> 00:00:19,142
+37. click(findTestObject("Page_Create New Customer Account/button_Create an Account"))
+
+14
+00:00:24,367 --> 00:00:24,368
+5. verifyTextPresent(passwordError, true)
+
